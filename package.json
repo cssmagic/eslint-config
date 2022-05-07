@@ -1,0 +1,33 @@
+{
+	"name": "@cmcm/eslint-config",
+	"version": "0.6.0",
+	"description": "ESLint config for daily development.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Tip: This script is not for unit-test!\n\"; eslint ./test/test.js",
+		"test-vue": "echo \"Tip: This script is not for unit-test!\n\"; eslint ./test/Test.vue"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig"
+	],
+	"author": "cssmagic <cssmagic.cn@gmail.com>",
+	"license": "MIT",
+	"engines": {
+		"node": ">=8",
+		"npm": ">=3"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^6.8.0",
+		"eslint-plugin-vue": "^6.2.2",
+		"lodash.merge": "^4.6.2"
+	},
+	"peerDependencies": {
+		"babel-eslint": "^10.1.0 || 8.2.2",
+		"eslint": "^6.8.0"
+	},
+	"optionalDependencies": {
+		"eslint-plugin-vue": "^6.2.2"
+	}
+}
