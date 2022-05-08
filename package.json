@@ -29,5 +29,13 @@
 	},
 	"optionalDependencies": {
 		"eslint-plugin-vue": "^6.2.2"
+	},
+	"files": [
+		"*.js",
+		"src/**/*.js",
+		"preset/**/*.js"
+	],
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
 	}
 }
