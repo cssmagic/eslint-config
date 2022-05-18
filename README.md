@@ -20,3 +20,9 @@ module.exports = {
     // ...
 }
 ```
+
+***
+
+## License
+
+MIT
