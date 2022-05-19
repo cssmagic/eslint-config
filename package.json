@@ -4,7 +4,7 @@
 	"description": "ESLint config for daily development.",
 	"main": "index.js",
 	"scripts": {
-		"sync": "open https://npmmirror.com/sync/@cmcm/eslint-config",
+		"postpublish": "npx npm-mirror-sync",
 		"test": "echo \"Tip: This script is not for unit-test!\n\"; eslint ./test/test.js",
 		"test-vue": "echo \"Tip: This script is not for unit-test!\n\"; eslint ./test/Test.vue"
 	},
